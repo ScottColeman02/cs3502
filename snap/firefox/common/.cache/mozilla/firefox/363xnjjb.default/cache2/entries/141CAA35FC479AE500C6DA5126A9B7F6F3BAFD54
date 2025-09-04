@@ -1,0 +1,411 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+html, body
+{
+    height:100%;
+    width:100%;
+    background-color:#ffffff;
+    color:#000000;
+    font-weight:normal;
+    font-family:"Segoe UI" , "Segoe" , "SegoeUI-Regular-final", Tahoma, Helvetica, Arial, sans-serif;
+    min-width:500px;
+    -ms-overflow-style:-ms-autohiding-scrollbar;
+}
+
+body
+{
+    font-size:0.9em;
+}
+
+#noScript { margin:16px; color:Black; }
+
+:lang(en-GB){quotes:'\2018' '\2019' '\201C' '\201D';}
+:lang(zh){font-family:å¾®è½¯é›…é»‘;}
+
+@-ms-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@-webkit-viewport { width: device-width;  }
+@viewport { width: device-width; }
+
+/* Theme layout styles */
+
+#fullPage, #brandingWrapper
+{
+    width:100%;
+    height:100%;
+    background-color:inherit;
+}
+#brandingWrapper
+{
+    background-color:#4488dd;
+}
+#branding
+{       
+    /* A background image will be added to the #branding element at run-time once the illustration image is configured in the theme. 
+       Recommended image dimensions: 1420x1200 pixels, JPG or PNG, 200 kB average, 500 kB maximum. */
+    height:100%;
+    margin-right:500px; margin-left:0px;
+    background-color:inherit;
+    background-repeat: no-repeat;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+}
+#contentWrapper
+{
+    position:relative;
+    width:500px;    
+    height:100%;
+    overflow:auto;
+    background-color:#ffffff; /* for IE7 */
+    margin-left:-500px; margin-right:0px; 
+}
+#content
+{
+    min-height:100%;
+    height: auto !important;
+    margin:0 auto -55px auto;
+    padding:0px 150px 0px 50px;
+}
+#header
+{
+    font-size:2em;
+    font-weight:lighter;
+    font-family:"Segoe UI Light" , "Segoe" , "SegoeUI-Light-final", Tahoma, Helvetica, Arial, sans-serif;
+    padding-top: 90px;
+    margin-bottom:60px;
+    min-height:100px;
+    overflow:hidden;
+}
+#header img
+{
+    /* Logo image recommended dimension: 60x60 (square) or 350X35 (elongated), 4 kB average, 10 kB maximum. Transparent PNG strongly recommended. */
+    width:auto;
+    height:auto;
+    max-width:100%;
+}
+#workArea, #header
+{
+    word-wrap:break-word;
+    width:350px;
+}
+#workArea
+{
+    margin-bottom:90px;
+}
+#footerPlaceholder
+{
+    height:40px;
+}
+#footer
+{
+    height:40px;
+    padding:10px 50px 0px 50px;
+    position:relative;
+    color:#666666;
+    font-size:0.78em;
+}
+#footerLinks
+{
+    float:none;
+    padding-top:10px;
+}
+#copyright {color:#696969;}
+.pageLink { color:#000000; padding-left:16px; }
+
+/* Common content styles */
+
+.clear {clear:both;}
+.float { float:left; } 
+.floatReverse { float:right; } 
+.indent { margin-left:16px; } 
+.indentNonCollapsible { padding-left:16px; }
+.hidden {display:none;}
+.notHidden {display:inherit;}
+.error { color:#c85305; }
+.actionLink { margin-bottom:8px; display:block; }
+a
+{
+    color:#2672ec;
+    text-decoration:none;
+    background-color:transparent;
+}
+ul { list-style-type: disc; }
+ul,ol,dd { padding: 0 0 0 16px; }
+h1,h2,h3,h4,h5,label { margin-bottom: 8px; }
+.submitMargin { margin-top:38px; margin-bottom:30px; }
+.topFieldMargin { margin-top:8px; }
+.fieldMargin { margin-bottom:8px; }
+.groupMargin { margin-bottom:30px; } 
+.sectionMargin { margin-bottom:64px; }
+.block { display: block; }
+.autoWidth { width:auto; }
+.fullWidth { width:342px; }
+.fullWidthIndent { width:326px; }
+.smallTopSpacing { margin-top:15px; }
+.mediumTopSpacing { margin-top:25px; }
+.largeTopSpacing { margin-top:35px; }
+.smallBottomSpacing { margin-bottom:5px; }
+.mediumBottomSpacing { margin-bottom:15px; }
+.largeBottomSpacing  { margin-bottom:25px; }
+input
+{
+    max-width:100%; 
+    font-family:inherit;
+    margin-bottom:8px;
+}
+input[type="radio"], input[type="checkbox"] {
+    vertical-align:middle;
+    margin-bottom: 0px;
+}
+span.submit, input[type="submit"]
+{
+    border:none;
+    background-color:rgb(38, 114, 236);
+    min-width:80px;
+    width:auto;
+    height:30px;
+    padding:4px 20px 6px 20px;
+    border-style:solid;
+    border-width:1px;
+    transition:background 0s;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    margin-bottom:8px;
+    
+    -ms-user-select:none;
+    -moz-transition:background 0s;
+    -webkit-transition:background 0s;
+    -o-transition:background 0s;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select:none;
+}
+input[type="submit"]:hover,span.submit:hover
+{
+    background: rgb(212, 227, 251);
+}
+input.text{
+    height:28px;
+    padding:0px 3px 0px 3px ;
+    border:solid 1px #BABABA;
+    font-size:1.0em;
+}
+input.text:focus
+{
+  border: 1px solid #6B6B6B;
+}
+select
+{
+    height:28px;
+    min-width:60px;
+    max-width:100%; 
+    margin-bottom:8px;
+
+    white-space:nowrap;
+    overflow:hidden;
+    box-shadow:none;
+    padding:2px;
+    font-family:inherit;
+}
+h1, .giantText
+{
+   font-size:2.0em; 
+   font-weight:lighter;
+}          
+h2, .bigText
+{
+   font-size:1.33em;
+   font-weight:lighter;
+}
+h3, .normalText
+{
+    font-size:1.0em;
+    font-weight:normal;
+}
+h4, .smallText
+{
+    font-size:0.9em;
+    font-weight:normal;
+}
+h5, .tinyText
+{
+    font-size:0.8em;
+    font-weight:normal;
+}
+.hint
+{
+    color:#999999;
+}
+.emphasis
+{
+    font-weight:700;
+    color:#2F2F2F;
+} 
+.smallIcon
+{
+    height:20px;
+    padding-right:12px;
+    vertical-align:middle;
+}
+.largeIcon
+{
+    height:48px;
+    /* width:48px; */
+    vertical-align:middle;
+}
+.largeTextNoWrap
+{
+    height:48px;
+    display:table-cell; /* needed when in float*/
+    vertical-align:middle;
+    white-space:nowrap;
+    font-size:1.2em;
+}
+.idp
+{
+    height:48px;
+    clear:both;
+    padding:8px;
+    overflow:hidden;
+}
+.idp:hover 
+{
+    background-color:#cccccc;
+}
+.idpDescription
+{
+    width:80%;
+}
+
+/* Form factor: intermediate height layout. Reduce space of the header. */
+@media only screen and (max-height: 820px) {
+    #header {
+        padding-top: 40px;
+        min-height:0px;
+        overflow: hidden;
+    }
+
+    #workArea
+    {
+        margin-bottom:60px; 
+    }
+}
+
+/* Form factor: intermediate height layout. Reduce space of the header. */
+@media only screen and (max-height: 500px) {
+    #header {
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+    #workArea{
+        margin-bottom:40px; 
+    }
+}
+
+/* Form factor: intermediate layout (WAB in non-snapped view falls in here) */
+@media only screen and (max-width: 600px) {
+    html, body {
+        min-width: 260px;
+    }
+
+    #brandingWrapper {
+        display: none;
+    }
+
+    #contentWrapper {
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    #content, #footer, #header {
+        width: 400px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #workArea {
+        width: 100%;
+    }
+
+    .fullWidth {
+        width: 392px;
+    }
+
+    .fullWidthIndent {
+        width: 376px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+        font-size: 0.8em;
+    }
+
+    #content, #footer {
+        width:auto;
+        margin-right:33px;
+        margin-left:25px;
+    }
+
+    #header {
+        width: auto;
+    }
+
+    span.submit, input[type="submit"] {
+        font-size: 0.9em;
+    }
+
+    .fullWidth
+    {
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .fullWidthIndent {
+        width: 85%;
+    }
+
+    .idpDescription
+    {
+        width:70%;
+    }
+}
+
+/* Form factor: snapped WAB (for WAB to work in snapped view, the content wrapper width has to be set to 260px) */
+@media only screen and (max-width:280px)
+{
+    #contentWrapper
+    {
+        width:260px;
+    }
+    .idpDescription
+    {
+        max-width:160px;
+        min-width:100px;
+    }
+}0Gžª      h¸¸>h¸¸>H–cshàE>   ¤    O^partitionKey=%28https%2Ckennesaw.edu%29,:https://ksufed.kennesaw.edu/adfs/portal/css/style.css?id=0A13280A86E7DFA6949BD016EA848912FCAFC05E88CBEDF538AC325B27041205 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Content-Length: 8144
+Content-Type: text/css
+Expires: Fri, 03 Oct 2025 21:50:54 GMT
+ETag: 0A13280A86E7DFA6949BD016EA848912FCAFC05E88CBEDF538AC325B27041205
+Server: Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0
+Date: Wed, 03 Sep 2025 21:50:53 GMT
+ original-response-headers Content-Length: 8144
+Content-Type: text/css
+Expires: Fri, 03 Oct 2025 21:50:54 GMT
+ETag: 0A13280A86E7DFA6949BD016EA848912FCAFC05E88CBEDF538AC325B27041205
+Server: Microsoft-HTTPAPI/2.0 Microsoft-HTTPAPI/2.0
+Date: Wed, 03 Sep 2025 21:50:53 GMT
+ ctid 5 uncompressed-len 0 net-response-time-onstart 83 net-response-time-onstop 83   Ð

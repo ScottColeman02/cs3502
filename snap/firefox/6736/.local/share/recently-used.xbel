@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/scott-coleman/Downloads/CS_3502_A1_Linux_Environment_C_Programming_Fundamentals.pdf" added="2025-09-03T21:51:59.743597Z" modified="2025-09-03T21:51:59.743606Z" visited="2025-09-03T21:51:59.743598Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox_firefox %u&apos;" modified="2025-09-03T21:51:59.743599Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,0 +1,14 @@
+10
+^partitionKey=%28https%2Ckennesaw.edu%29
+https://www.googletagmanager.com/static/service_worker
+https://www.googletagmanager.com/static/service_worker/5840/sw.js?origin=https%3A%2F%2Fcampus.kennesaw.edu
+false
+{5c5408f0-471f-4c9b-b956-9d42e9dc430d}
+1
+1756936247711644
+1756936247713907
+1756936247691445
+0
+true
+0
+#
