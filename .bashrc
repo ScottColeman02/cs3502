@@ -124,4 +124,4 @@ alias ll='ls -la'              # List files with details
 alias gs='git status'          # Quick git status check
 alias cls='clear'              # Clear screen (like windows)
 alias ..='cd ..'               # Go up one directory
-
+alias ga='git add'             # Quick git add

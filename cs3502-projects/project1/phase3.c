@@ -81,15 +81,12 @@ int main(){
 	thread_ids[1] = 1;
         pthread_create(&threads[1], NULL, teller1_thread, &thread_ids[1]);
 
-	/*for (int i=0; i<2; i++) {
-                thread_ids[i] = i;
-                pthread_create(&threads[i], NULL, teller_thread, &thread_ids[i]);
-        }*/
 
 	//Wait for all threads to complete
         for (int i=0; i<2; i++) {
                 pthread_join(threads[i], NULL);
         }
+
 
         //Destroy mutex locks
         for (int i=0; i<2; i++) {

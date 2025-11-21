@@ -441,10 +441,10 @@ Version: 24.10
 Date: Thu, 10 October 2024 00:24:10 UTC
 Supported: 0
 Description: This is the 24.10 release
-Release-File: http://archive.ubuntu.com/ubuntu/dists/oracular-updates/Release
+Release-File: http://old-releases.ubuntu.com/ubuntu/dists/oracular-updates/Release
 ReleaseNotes: https://changelogs.ubuntu.com/EOLReleaseAnnouncement
-UpgradeTool: http://archive.ubuntu.com/ubuntu/dists/oracular-updates/main/dist-upgrader-all/current/oracular.tar.gz
-UpgradeToolSignature: http://archive.ubuntu.com/ubuntu/dists/oracular-updates/main/dist-upgrader-all/current/oracular.tar.gz.gpg
+UpgradeTool: http://old-releases.ubuntu.com/ubuntu/dists/oracular-updates/main/dist-upgrader-all/current/oracular.tar.gz
+UpgradeToolSignature: http://old-releases.ubuntu.com/ubuntu/dists/oracular-updates/main/dist-upgrader-all/current/oracular.tar.gz.gpg
 
 Dist: plucky
 Name: Plucky Puffin
@@ -457,3 +457,15 @@ ReleaseNotes: http://archive.ubuntu.com/ubuntu/dists/plucky-updates/main/dist-up
 ReleaseNotesHtml: http://archive.ubuntu.com/ubuntu/dists/plucky-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html
 UpgradeTool: http://archive.ubuntu.com/ubuntu/dists/plucky-updates/main/dist-upgrader-all/current/plucky.tar.gz
 UpgradeToolSignature: http://archive.ubuntu.com/ubuntu/dists/plucky-updates/main/dist-upgrader-all/current/plucky.tar.gz.gpg
+
+Dist: questing
+Name: Questing Quokka
+Version: 25.10
+Date: Thu, 09 October 2025 00:25:10 UTC
+Supported: 1
+Description: This is the 25.10 release
+Release-File: http://archive.ubuntu.com/ubuntu/dists/questing/Release
+ReleaseNotes: http://archive.ubuntu.com/ubuntu/dists/questing/main/dist-upgrader-all/current/ReleaseAnnouncement
+ReleaseNotesHtml: http://archive.ubuntu.com/ubuntu/dists/questing/main/dist-upgrader-all/current/ReleaseAnnouncement.html
+UpgradeTool: http://archive.ubuntu.com/ubuntu/dists/questing/main/dist-upgrader-all/current/questing.tar.gz
+UpgradeToolSignature: http://archive.ubuntu.com/ubuntu/dists/questing/main/dist-upgrader-all/current/questing.tar.gz.gpg

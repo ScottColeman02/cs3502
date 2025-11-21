@@ -1,0 +1,1660 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-holy-grail   show-table-of-contents conceptual show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+			<title>File Types Created for Visual Studio C++ projects | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="Learn more about: File Types Created for Visual Studio C++ Projects" />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/cpp/build/reference/file-types-created-for-visual-cpp-projects?view=msvc-170" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="File Types Created for Visual Studio C++ projects" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/cpp/build/reference/file-types-created-for-visual-cpp-projects?view=msvc-170" />
+			<meta property="og:description" content="Learn more about: File Types Created for Visual Studio C++ Projects" />
+			<meta name="platform_id" content="6a3ee792-f7d0-d66d-d934-83c7bdabe30d" /> <meta name="scope" content="C++" />
+			<meta name="locale" content="en-us" />
+			 <meta name="adobe-target" content="true" /> 
+			<meta name="uhfHeaderId" content="MSDocsHeader-CPP" />
+
+			<meta name="page_type" content="conceptual" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="breadcrumb_path" content="../../_breadcrumb/toc.json" />
+	
+		<meta name="ROBOTS" content="INDEX,FOLLOW" />
+	
+		<meta name="manager" content="coxford" />
+	
+		<meta name="ms.date" content="2019-04-08T00:00:00Z" />
+	
+		<meta name="ms.topic" content="reference" />
+	
+		<meta name="audience" content="developer" />
+	
+		<meta name="ms.service" content="visual-cpp" />
+	
+		<meta name="ms.tgt_pltfrm" content="Windows" />
+	
+		<meta name="ms.workload" content="cplusplus" />
+	
+		<meta name="feedback_system" content="Standard" />
+	
+		<meta name="feedback_product_url" content="https://developercommunity.visualstudio.com/cpp/" />
+	
+		<meta name="feedback_help_link_url" content="https://learn.microsoft.com/en-us/answers/tags/314/cpp" />
+	
+		<meta name="feedback_help_link_type" content="get-help-at-qna" />
+	
+		<meta name="ms.subservice" content="tools" />
+	
+		<meta name="ms.update-cycle" content="1825-days" />
+	
+		<meta name="author" content="TylerMSFT" />
+	
+		<meta name="ms.author" content="twhitney" />
+	
+		<meta name="ms.assetid" content="2b0ee2e0-ae81-4185-9bb9-11da3c99a283" />
+	
+		<meta name="document_id" content="348fa5d8-8bd8-0469-1d26-03cf2994c4db" />
+	
+		<meta name="document_version_independent_id" content="9d21633b-ee0e-be0d-6df9-52ef683e38ba" />
+	
+		<meta name="updated_at" content="2021-08-03T17:40:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/cpp-docs-pr/blob/live/docs/build/reference/file-types-created-for-visual-cpp-projects.md" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/cpp-docs-pr/blob/c98cb7524abb5c241c81b494be159d08a84d308d/docs/build/reference/file-types-created-for-visual-cpp-projects.md" />
+	
+		<meta name="git_commit_id" content="c98cb7524abb5c241c81b494be159d08a84d308d" />
+	
+		<meta name="monikers" content="msvc-140" />
+	
+		<meta name="monikers" content="msvc-150" />
+	
+		<meta name="monikers" content="msvc-160" />
+	
+		<meta name="monikers" content="msvc-170" />
+	
+		<meta name="monikers" content="msvc-180" />
+	
+		<meta name="default_moniker" content="msvc-170" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="VS.vcppdocs" />
+	
+		<meta name="schema" content="Conceptual" />
+	
+		<meta name="toc_rel" content="../toc.json" />
+	
+		<meta name="pdf_url_template" content="https://learn.microsoft.com/pdfstore/en-us/VS.vcppdocs/{branchName}{pdfName}" />
+	
+		<meta name="search.mshattr.devlang" content="cpp" />
+	
+		<meta name="word_count" content="758" />
+	
+		<meta name="config_moniker_range" content="&gt;= msvc-140" />
+	
+		<meta name="asset_id" content="build/reference/file-types-created-for-visual-cpp-projects" />
+	
+		<meta name="moniker_range_name" content="4581682a33ffa46eb75263dee4d6680e" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="docs/build/reference/file-types-created-for-visual-cpp-projects.md" />
+	
+		<meta name="previous_tlsh_hash" content="E9720FA132175659AF931D0F58DD7E5041F09C8D78A0294B673430A7D49E2E658AB87C91969F9C0DC332A3D201C6B3091DC2FB6F861CA7B2763988E4E0097166BB4D2FF9BB" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/cpp-docs/blob/main/docs/build/reference/file-types-created-for-visual-cpp-projects.md" />
+	 
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/4628cbd9-6f47-4ae1-b371-d34636609eaf" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/be21deb8-8c64-44b0-b71f-2dc56ca7364f" data-source="generated" />
+	
+
+			<!-- assets and js globals -->
+			
+			<link rel="stylesheet" href="/static/assets/0.4.03239.7319-c76ed203/styles/site-ltr.css" />
+			<link rel="preconnect" href="//mscom.demdex.net" crossorigin />
+						<link rel="dns-prefetch" href="//target.microsoft.com" />
+						<link rel="dns-prefetch" href="//microsoftmscompoc.tt.omtrdc.net" />
+						<link
+							rel="preload"
+							as="script"
+							href="/static/third-party/adobe-target/at-js/2.9.0/at.js"
+							integrity="sha384-1/viVM50hgc33O2gOgkWz3EjiD/Fy/ld1dKYXJRUyjNYVEjSUGcSN+iPiQF7e4cu"
+							crossorigin="anonymous"
+							id="adobe-target-script"
+							type="application/javascript"
+						/>
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<script src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			<script src="/_themes/docs.theme/master/en-us/_themes/global/deprecation.js"></script>
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Conceptual",
+    "brand": "",
+    "context": {},
+    "standardFeedback": true,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "get-help-at-qna",
+    "feedbackHelpLinkUrl": "https://learn.microsoft.com/en-us/answers/tags/314/cpp",
+    "feedbackSystem": "Standard",
+    "feedbackGitHubRepo": "MicrosoftDocs/cpp-docs",
+    "feedbackProductUrl": "https://developercommunity.visualstudio.com/cpp/",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": true,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": false,
+    "contributors": [
+      {
+        "name": "TylerMSFT",
+        "url": "https://github.com/TylerMSFT"
+      },
+      {
+        "name": "v-kents",
+        "url": "https://github.com/v-kents"
+      },
+      {
+        "name": "nschonni",
+        "url": "https://github.com/nschonni"
+      }
+    ]
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			<script src="/static/assets/0.4.03239.7319-c76ed203/scripts/en-us/index-docs.js"></script>
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+		<a
+			href="#"
+			data-skip-to-ask-learn
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			hidden
+		>
+			Skip to Ask Learn chat experience
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<header
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				role="banner"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+				></div>
+			</header>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 <section
+					id="layout-body-menu"
+					class="layout-body-menu display-flex"
+					data-bi-name="menu"
+			  >
+					<div
+		id="left-container"
+		class="left-container display-none display-block-tablet padding-inline-sm padding-bottom-sm width-full"
+	>
+		<nav
+			id="affixed-left-container"
+			class="margin-top-sm-tablet position-sticky display-flex flex-direction-column"
+			aria-label="Primary"
+		></nav>
+	</div>
+			  </section>
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main "
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div
+		id="ms--content-header"
+		class="content-header default-focus border-bottom-none"
+		data-bi-name="content-header"
+	>
+		<div class="content-header-controls margin-xxs margin-inline-sm-tablet">
+			<button
+				type="button"
+				class="contents-button button button-sm margin-right-xxs"
+				data-bi-name="contents-expand"
+				aria-haspopup="true"
+				data-contents-button
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-menu"></span></span>
+				<span class="contents-expand-title"> Table of contents </span>
+			</button>
+			<button
+				type="button"
+				class="ap-collapse-behavior ap-expanded button button-sm"
+				data-bi-name="ap-collapse"
+				aria-controls="action-panel"
+			>
+				<span class="icon" aria-hidden="true"><span class="docon docon-exit-mode"></span></span>
+				<span>Exit editor mode</span>
+			</button>
+		</div>
+	</div>
+			<div data-main-column class="padding-sm padding-top-none padding-top-sm-tablet">
+				<div>
+					
+		<div id="article-header" class="background-color-body margin-bottom-xs display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content padding-none"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			role="group"
+			aria-label="Breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			
+		<button
+			class="button button-sm border-none inner-focus display-none-tablet flex-shrink-0 "
+			data-bi-name="ask-learn-assistant-entry"
+			data-test-id="ask-learn-assistant-modal-entry-mobile"
+			data-ask-learn-modal-entry
+			
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-none display-inline-flex-tablet display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-modal-entry-tablet"
+			data-ask-learn-modal-entry
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn "
+			data-bi-name="ask-learn-assistant-entry"
+			
+			data-test-id="ask-learn-assistant-flyout-entry"
+			data-ask-learn-flyout-entry
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	 
+		<button
+			type="button"
+			id="ms--focus-mode-button"
+			data-focus-mode
+			data-bi-name="focus-mode-entry"
+			class="button button-sm flex-shrink-0 margin-right-xxs display-none display-inline-flex-desktop"
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-glasses"></span>
+			</span>
+			<span>Focus mode</span>
+		</button>
+	 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					
+		<button
+			data-page-action-item="overflow-mobile"
+			type="button"
+			class="button-block button-sm inner-focus button button-clear display-none-tablet justify-content-flex-start text-align-left"
+			data-bi-name="contents-expand"
+			data-contents-button
+			data-popover-close
+		>
+			<span class="icon">
+				<span class="docon docon-editor-list-bullet" aria-hidden="true"></span>
+			</span>
+			<span class="contents-expand-title">Table of contents</span>
+		</button>
+	 
+		<a
+			id="lang-link-overflow"
+			class="button-sm inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	 
+		<button
+			type="button"
+			class="collection button button-clear button-sm button-block justify-content-flex-start text-align-left inner-focus"
+			data-list-type="collection"
+			data-bi-name="collection"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="collection-status">Add</span>
+		</button>
+	
+					
+		<button
+			type="button"
+			class="collection button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			data-list-type="plan"
+			data-bi-name="plan"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-popover-close
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-circle-addition"></span>
+			</span>
+			<span class="plan-status">Add to plan</span>
+		</button>
+	  
+		<a
+			data-contenteditbtn
+			class="button button-clear button-block button-sm inner-focus justify-content-flex-start text-align-left text-decoration-none"
+			data-bi-name="edit"
+			
+			href="https://github.com/MicrosoftDocs/cpp-docs/blob/main/docs/build/reference/file-types-created-for-visual-cpp-projects.md"
+			data-original_content_git_url="https://github.com/MicrosoftDocs/cpp-docs-pr/blob/live/docs/build/reference/file-types-created-for-visual-cpp-projects.md"
+			data-original_content_git_url_template="{repo}/blob/{branch}/docs/build/reference/file-types-created-for-visual-cpp-projects.md"
+			data-pr_repo=""
+			data-pr_branch=""
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-edit-outline"></span>
+			</span>
+			<span>Edit</span>
+		</a>
+	
+					
+		<hr class="margin-block-xxs" />
+		<h4 class="font-size-sm padding-left-xxs">Share via</h4>
+		
+					<a
+						class="button button-clear button-sm inner-focus button-block justify-content-flex-start text-align-left text-decoration-none share-facebook"
+						data-bi-name="facebook"
+						data-page-action-item="overflow-all"
+						href="#"
+					>
+						<span class="icon color-primary" aria-hidden="true">
+							<span class="docon docon-facebook-share"></span>
+						</span>
+						<span>Facebook</span>
+					</a>
+
+					<a
+						href="#"
+						class="button button-clear button-sm inner-focus button-block justify-content-flex-start text-align-left text-decoration-none share-twitter"
+						data-bi-name="twitter"
+						data-page-action-item="overflow-all"
+					>
+						<span class="icon color-text" aria-hidden="true">
+							<span class="docon docon-xlogo-share"></span>
+						</span>
+						<span>x.com</span>
+					</a>
+
+					<a
+						href="#"
+						class="button button-clear button-sm inner-focus button-block justify-content-flex-start text-align-left text-decoration-none share-linkedin"
+						data-bi-name="linkedin"
+						data-page-action-item="overflow-all"
+					>
+						<span class="icon color-primary" aria-hidden="true">
+							<span class="docon docon-linked-in-logo"></span>
+						</span>
+						<span>LinkedIn</span>
+					</a>
+					<a
+						href="#"
+						class="button button-clear button-sm inner-focus button-block justify-content-flex-start text-align-left text-decoration-none share-email"
+						data-bi-name="email"
+						data-page-action-item="overflow-all"
+					>
+						<span class="icon color-primary" aria-hidden="true">
+							<span class="docon docon-mail-message"></span>
+						</span>
+						<span>Email</span>
+					</a>
+			  
+	 
+		<hr class="margin-block-xxs" />
+		<button
+			class="button button-block button-clear button-sm justify-content-flex-start text-align-left inner-focus"
+			type="button"
+			data-bi-name="print"
+			data-page-action-item="overflow-all"
+			data-popover-close
+			data-print-page
+			data-check-hidden="true"
+		>
+			<span class="icon color-primary" aria-hidden="true">
+				<span class="docon docon-print"></span>
+			</span>
+			<span>Print</span>
+		</button>
+	
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	  
+		<!-- privateUnauthorizedTemplate is hidden by default -->
+		<div unauthorized-private-section data-bi-name="permission-content-unauthorized-private" hidden>
+			<hr class="hr margin-top-xs margin-bottom-sm" />
+			<div class="notification notification-info">
+				<div class="notification-content">
+					<p class="margin-top-none notification-title">
+						<span class="icon">
+							<span class="docon docon-exclamation-circle-solid" aria-hidden="true"></span>
+						</span>
+						<span>Note</span>
+					</p>
+					<p class="margin-top-none authentication-determined not-authenticated">
+						Access to this page requires authorization. You can try <a class="docs-sign-in" href="#" data-bi-name="permission-content-sign-in">signing in</a> or <a  class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+					<p class="margin-top-none authentication-determined authenticated">
+						Access to this page requires authorization. You can try <a class="docs-change-directory" data-bi-name="permisson-content-change-directory">changing directories</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	
+					<div class="content"><h1 id="file-types-created-for-visual-studio-c-projects">File Types Created for Visual Studio C++ Projects</h1></div>
+					
+		<div
+			id="article-metadata"
+			data-bi-name="article-metadata"
+			data-test-id="article-metadata"
+			class="page-metadata-container display-flex gap-xxs justify-content-space-between align-items-center flex-wrap-wrap"
+		>
+			 
+				<div
+					id="user-feedback"
+					class="margin-block-xxs display-none display-none-print"
+					hidden
+					data-hide-on-archived
+				>
+					
+		<button
+			id="user-feedback-button"
+			data-test-id="conceptual-feedback-button"
+			class="button button-sm button-clear button-primary display-none"
+			type="button"
+			data-bi-name="user-feedback-button"
+			data-user-feedback-button
+			hidden
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-like"></span>
+			</span>
+			<span>Feedback</span>
+		</button>
+	
+				</div>
+		  
+		</div>
+	 
+		<div data-id="ai-summary-on-docs" hidden>
+			<div id="ms--ai-summary">
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-sparkle-fill gradient-text-vivid"></span>
+				</span>
+				<button
+					type="button"
+					class="tag tag-sm tag-suggestion"
+					data-test-id="ai-summary-cta"
+					data-bi-name="ai-summary-cta"
+					data-an="ai-summary"
+				>
+					<span class="ai-summary-cta-text">
+						Summarize this article for me
+					</span>
+				</button>
+			</div>
+			<!-- Slot where the client will render the summary card after the user clicks the CTA -->
+			<div id="ms--ai-summary-header"></div>
+		</div>
+	 
+		<nav
+			id="center-doc-outline"
+			class="doc-outline is-hidden-desktop display-none-print margin-bottom-sm"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h2 id="ms--in-this-article" class="title is-6 margin-block-xs">
+				In this article
+			</h2>
+		</nav>
+	
+					<div class="content"><p>Many types of files are associated with Visual Studio projects for classic desktop applications. The actual files included in your project depend on the project type and the options you select when using a wizard.</p>
+<ul>
+<li><p><a href="project-and-solution-files?view=msvc-170" data-linktype="relative-path">Project and Solution Files</a></p>
+</li>
+<li><p><a href="files-created-for-clr-projects?view=msvc-170" data-linktype="relative-path">CLR Projects</a></p>
+</li>
+<li><p><a href="atl-program-or-control-source-and-header-files?view=msvc-170" data-linktype="relative-path">ATL Program or Control Source and Header Files</a></p>
+</li>
+<li><p><a href="mfc-program-or-control-source-and-header-files?view=msvc-170" data-linktype="relative-path">MFC Program or Control Source and Header Files</a></p>
+</li>
+<li><p><a href="../creating-precompiled-header-files?view=msvc-170" data-linktype="relative-path">Precompiled Header Files</a></p>
+</li>
+<li><p><a href="resource-files-cpp?view=msvc-170" data-linktype="relative-path">Resource Files</a></p>
+</li>
+<li><p><a href="help-files-winhelp?view=msvc-170" data-linktype="relative-path">Help Files (WinHelp)</a></p>
+</li>
+<li><p><a href="hint-files?view=msvc-170" data-linktype="relative-path">Hint Files</a></p>
+</li>
+</ul>
+<p>When you create a Visual Studio project, you might create it in a new solution, or you might add a project to an existing solution. Non-trivial applications are commonly developed with multiple projects in a solution.</p>
+<p>Projects usually produce either an EXE or a DLL. Projects can be dependent on each other; during the build process, the Visual Studio environment checks dependencies both within and between projects. Each project usually has core source code. Depending on the kind of project, it may have many other files containing various aspects of the project. The contents of these files are indicated by the file extension. The Visual Studio development environment uses the file extensions to determine how to handle the file contents during a build.</p>
+<p>The following table shows common files in a Visual Studio project, and identifies them with their file extension.</p>
+<table>
+<thead>
+<tr>
+<th>File extension</th>
+<th>Type</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.asmx</td>
+<td>Source</td>
+<td>Deployment file.</td>
+</tr>
+<tr>
+<td>.asp</td>
+<td>Source</td>
+<td>Active Server Page file.</td>
+</tr>
+<tr>
+<td>.atp</td>
+<td>Project</td>
+<td>Application template project file.</td>
+</tr>
+<tr>
+<td>.bmp, .dib, .gif, .jpg, .jpe, .png</td>
+<td>Resource</td>
+<td>General image files.</td>
+</tr>
+<tr>
+<td>.bsc</td>
+<td>Compiling</td>
+<td>The browser code file.</td>
+</tr>
+<tr>
+<td>.cpp, .c</td>
+<td>Source</td>
+<td>Main source code files for your application.</td>
+</tr>
+<tr>
+<td>.cur</td>
+<td>Resource</td>
+<td>Cursor bitmap graphic file.</td>
+</tr>
+<tr>
+<td>.dbp</td>
+<td>Project</td>
+<td>Database project file.</td>
+</tr>
+<tr>
+<td>.disco</td>
+<td>Source</td>
+<td>The dynamic discovery document file. Handles XML Web service discovery.</td>
+</tr>
+<tr>
+<td>.exe, .dll</td>
+<td>Project</td>
+<td>Executable or dynamic-link library files.</td>
+</tr>
+<tr>
+<td>.h</td>
+<td>Source</td>
+<td>A header (include) file.</td>
+</tr>
+<tr>
+<td>.htm, .html, .xsp, .asp, .htc, .hta, .xml</td>
+<td>Resource</td>
+<td>Common Web files.</td>
+</tr>
+<tr>
+<td>.HxC</td>
+<td>Project</td>
+<td>Help project file.</td>
+</tr>
+<tr>
+<td>.ico</td>
+<td>Resource</td>
+<td>Icon bitmap graphic file.</td>
+</tr>
+<tr>
+<td>.idb</td>
+<td>Compiling</td>
+<td>The state file, containing dependency information between source files and class definitions. It can be used by the compiler during incremental compilation. Use the <a href="fd-program-database-file-name?view=msvc-170" data-linktype="relative-path">/Fd</a> compiler option to specify the name of the .idb file.</td>
+</tr>
+<tr>
+<td>.idl</td>
+<td>Compiling</td>
+<td>An interface definition language file. For more information, see <a href="/en-us/windows/win32/Rpc/the-interface-definition-language-idl-file" data-linktype="absolute-path">Interface Definition (IDL) File</a> in the Windows SDK.</td>
+</tr>
+<tr>
+<td>.ilk</td>
+<td>Linking</td>
+<td>Incremental link file. For more information, see <a href="incremental-link-incrementally?view=msvc-170" data-linktype="relative-path">/INCREMENTAL</a>.</td>
+</tr>
+<tr>
+<td>.map</td>
+<td>Linking</td>
+<td>A text file containing linker information. Use the <a href="fm-name-mapfile?view=msvc-170" data-linktype="relative-path">/Fm</a> compiler option to name the map file. For more information, see <a href="map-generate-mapfile?view=msvc-170" data-linktype="relative-path">/MAP</a>.</td>
+</tr>
+<tr>
+<td>.mfcribbon-ms</td>
+<td>Resource</td>
+<td>A resource file that contains the XML code that defines the MFC buttons, controls, and attributes in the ribbon. For more information, see <a href="../../mfc/ribbon-designer-mfc?view=msvc-170" data-linktype="relative-path">Ribbon Designer</a>.</td>
+</tr>
+<tr>
+<td>.obj, .o</td>
+<td></td>
+<td>Object files, compiled but not linked.</td>
+</tr>
+<tr>
+<td>.pch</td>
+<td>Debug</td>
+<td>Precompiled header file.</td>
+</tr>
+<tr>
+<td>.rc, .rc2</td>
+<td>Resource</td>
+<td><a href="../../windows/working-with-resource-files?view=msvc-170" data-linktype="relative-path">Resource script files</a> to generate resources.</td>
+</tr>
+<tr>
+<td>.sbr</td>
+<td>Compiling</td>
+<td>Source browser intermediate file. The input file for <a href="bscmake-options?view=msvc-170" data-linktype="relative-path">BSCMAKE</a>.</td>
+</tr>
+<tr>
+<td>.sln</td>
+<td>Solution</td>
+<td>The <a href="/en-us/visualstudio/ide/solutions-and-projects-in-visual-studio" data-linktype="absolute-path">solution</a> file.</td>
+</tr>
+<tr>
+<td>.suo</td>
+<td>Solution</td>
+<td>The solution options file.</td>
+</tr>
+<tr>
+<td>.txt</td>
+<td>Resource</td>
+<td>A text file, usually the "readme" file.</td>
+</tr>
+<tr>
+<td>.vap</td>
+<td>Project</td>
+<td>A Visual Studio Analyzer project file.</td>
+</tr>
+<tr>
+<td>.vbg</td>
+<td>Solution</td>
+<td>A compatible project group file.</td>
+</tr>
+<tr>
+<td>.vbp, .vip, .vbproj</td>
+<td>Project</td>
+<td>The Visual Basic project file.</td>
+</tr>
+<tr>
+<td>.vcxitems</td>
+<td>Project</td>
+<td>Shared Items project for sharing code files between multiple C++ projects. For more information, see <a href="project-and-solution-files?view=msvc-170" data-linktype="relative-path">Project and Solution Files</a>.</td>
+</tr>
+<tr>
+<td>.vcxproj</td>
+<td>Project</td>
+<td>The Visual Studio project file. For more information, see <a href="project-and-solution-files?view=msvc-170" data-linktype="relative-path">Project and Solution Files</a>.</td>
+</tr>
+<tr>
+<td>.vcxproj.filters</td>
+<td>Project</td>
+<td>Used when you use Solution Explorer to add a file to a project. The filters file defines where in the Solution Explorer tree view to add the file, based on its file name extension.</td>
+</tr>
+<tr>
+<td>.vdproj</td>
+<td>Project</td>
+<td>The Visual Studio deployment project file.</td>
+</tr>
+<tr>
+<td>.vmx</td>
+<td>Project</td>
+<td>The macro project file.</td>
+</tr>
+<tr>
+<td>.vup</td>
+<td>Project</td>
+<td>The utility project file.</td>
+</tr>
+</tbody>
+</table>
+<p>For information on other files associated with Visual Studio, see <a href="/en-us/visualstudio/ide/reference/project-and-solution-file-types" data-linktype="absolute-path">File Types and File Extensions in Visual Studio .NET</a>.</p>
+<p>Project files are organized into folders in Solution Explorer. Visual Studio creates a folder for source files, header files, and resource files, but you can reorganize these folders or create new ones. You can use folders to organize explicitly logical clusters of files within the hierarchy of a project. For example, you could create folders to contain all your user interface source files. Or, folders for specifications, documentation, or test suites. All file folder names should be unique.</p>
+<p>When you add an item to a project, you add the item to all configurations for that project. The item is added whether it's buildable or not. For example, if you have a project named MyProject, adding an item adds it to both the Debug and Release project configurations.</p>
+<h2 id="see-also">See also</h2>
+<p><a href="../creating-and-managing-visual-cpp-projects?view=msvc-170" data-linktype="relative-path">Creating and Managing Visual Studio C++ Projects</a><br>
+<a href="visual-cpp-project-types?view=msvc-170" data-linktype="relative-path">Visual Studio C++ Project Types</a><br></p>
+</div>
+					
+		<div
+			id="ms--inline-notifications"
+			class="margin-block-xs"
+			data-bi-name="inline-notification"
+		></div>
+	 
+		<div
+			id="assertive-live-region"
+			role="alert"
+			aria-live="assertive"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+		<div
+			id="polite-live-region"
+			role="status"
+			aria-live="polite"
+			class="visually-hidden"
+			aria-relevant="additions"
+			aria-atomic="true"
+		></div>
+	
+					
+		<!-- feedback section -->
+		<section
+			id="site-user-feedback-footer"
+			class="font-size-sm margin-top-md display-none-print display-none-desktop"
+			data-test-id="site-user-feedback-footer"
+			data-bi-name="site-feedback-section"
+		>
+			<hr class="hr" />
+			<h2 id="ms--feedback" class="title is-3">Feedback</h2>
+			<div class="display-flex flex-wrap-wrap align-items-center">
+				<p class="font-weight-semibold margin-xxs margin-left-none">
+					Was this page helpful?
+				</p>
+				<div class="buttons">
+					<button
+						class="thumb-rating-button like button button-primary button-sm"
+						data-test-id="footer-rating-yes"
+						data-binary-rating-response="rating-yes"
+						type="button"
+						title="This article is helpful"
+						data-bi-name="button-rating-yes"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-like"></span>
+						</span>
+						<span>Yes</span>
+					</button>
+					<button
+						class="thumb-rating-button dislike button button-primary button-sm"
+						id="standard-rating-no-button"
+						hidden
+						data-test-id="footer-rating-no"
+						data-binary-rating-response="rating-no"
+						type="button"
+						title="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+						<span>No</span>
+					</button>
+					<details
+						class="popover popover-top"
+						id="mobile-help-popover"
+						data-test-id="footer-feedback-popover"
+					>
+						<summary
+							class="thumb-rating-button dislike button button-primary button-sm"
+							data-test-id="details-footer-rating-no"
+							data-binary-rating-response="rating-no"
+							title="This article is not helpful"
+							data-bi-name="button-rating-no"
+							aria-pressed="false"
+							data-bi-an="feedback-unhelpful-popover"
+						>
+							<span class="icon" aria-hidden="true">
+								<span class="docon docon-dislike"></span>
+							</span>
+							<span>No</span>
+						</summary>
+						<div
+							class="popover-content width-200 width-300-tablet"
+							role="dialog"
+							aria-labelledby="popover-heading"
+							aria-describedby="popover-description"
+						>
+							<p id="popover-heading" class="font-size-lg margin-bottom-xxs font-weight-semibold">
+								Need help with this topic?
+							</p>
+							<p id="popover-description" class="font-size-sm margin-bottom-xs">
+								Want to try using Ask Learn to clarify or guide you through this topic?
+							</p>
+							
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+						</div>
+					</details>
+				</div>
+			</div>
+		</section>
+		<!-- end feedback section -->
+	
+				</div>
+				
+		<div id="ms--additional-resources-mobile" class="display-none-print">
+			<hr class="hr" hidden />
+			<h2 id="ms--additional-resources-mobile-heading" class="title is-3" hidden>
+				Additional resources
+			</h2>
+			 
+		<section
+			id="right-rail-training-mobile"
+			class=""
+			data-bi-name="learning-resource-card"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-events-mobile"
+			class=""
+			data-bi-name="events-card"
+			hidden
+		></section>
+	 
+		<section
+			id="right-rail-qna-mobile"
+			class="margin-top-xxs"
+			data-bi-name="qna-link-card"
+			hidden
+		></section>
+	
+		</div>
+	 
+		<div
+			id="article-metadata-footer"
+			data-bi-name="article-metadata-footer"
+			data-test-id="article-metadata-footer"
+			class="page-metadata-container"
+		>
+			<hr class="hr" />
+			<ul class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">
+				<li class="visibility-hidden-visual-diff">
+			<span class="badge badge-sm text-wrap-pretty">
+				<span>Last updated on <local-time format="twoDigitNumeric"
+		datetime="2021-08-03T17:40:00.000Z"
+		data-article-date-source="calculated"
+		class="is-invisible"
+	>
+		2021-08-03
+	</local-time></span>
+			</span>
+		</li>
+			</ul>
+		</div>
+	
+			</div>
+			
+		<div
+			id="action-panel"
+			role="region"
+			aria-label="Action Panel"
+			class="action-panel"
+			tabindex="-1"
+		></div>
+	
+		
+				</main>
+				<aside
+					id="layout-body-aside"
+					class="layout-body-aside "
+					data-bi-name="aside"
+			  >
+					
+		<div
+			id="ms--additional-resources"
+			class="right-container padding-sm display-none display-block-desktop height-full"
+			data-bi-name="pageactions"
+			role="complementary"
+			aria-label="Additional resources"
+		>
+			<div id="affixed-right-container" data-bi-name="right-column">
+				
+		<nav
+			id="side-doc-outline"
+			class="doc-outline border-bottom padding-bottom-xs margin-bottom-xs"
+			data-bi-name="intopic toc"
+			aria-label="In this article"
+		>
+			<h3>In this article</h3>
+		</nav>
+	
+				<!-- Feedback -->
+				
+		<section
+			id="ms--site-user-feedback-right-rail"
+			class="font-size-sm display-none-print"
+			data-test-id="site-user-feedback-right-rail"
+			data-bi-name="site-feedback-right-rail"
+		>
+			<p class="font-weight-semibold margin-bottom-xs">Was this page helpful?</p>
+			<div class="buttons">
+				<button
+					class="thumb-rating-button like button button-primary button-sm"
+					data-test-id="right-rail-rating-yes"
+					data-binary-rating-response="rating-yes"
+					type="button"
+					title="This article is helpful"
+					data-bi-name="button-rating-yes"
+					aria-pressed="false"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-like"></span>
+					</span>
+					<span>Yes</span>
+				</button>
+				<button
+					class="thumb-rating-button dislike button button-primary button-sm"
+					id="right-rail-no-button"
+					hidden
+					data-test-id="right-rail-rating-no"
+					data-binary-rating-response="rating-no"
+					type="button"
+					title="This article is not helpful"
+					data-bi-name="button-rating-no"
+					aria-pressed="false"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-dislike"></span>
+					</span>
+					<span>No</span>
+				</button>
+				<details class="popover popover-right" id="help-popover" data-test-id="feedback-popover">
+					<summary
+						tabindex="0"
+						class="thumb-rating-button dislike button button-primary button-sm"
+						data-test-id="details-right-rail-rating-no"
+						data-binary-rating-response="rating-no"
+						title="This article is not helpful"
+						data-bi-name="button-rating-no"
+						aria-pressed="false"
+						data-bi-an="feedback-unhelpful-popover"
+					>
+						<span class="icon" aria-hidden="true">
+							<span class="docon docon-dislike"></span>
+						</span>
+						<span>No</span>
+					</summary>
+					<div
+						class="popover-content width-200 width-300-tablet"
+						role="dialog"
+						aria-labelledby="popover-heading"
+						aria-describedby="popover-description"
+					>
+						<p
+							id="popover-heading-right-rail"
+							class="font-size-lg margin-bottom-xxs font-weight-semibold"
+						>
+							Need help with this topic?
+						</p>
+						<p id="popover-description-right-rail" class="font-size-sm margin-bottom-xs">
+							Want to try using Ask Learn to clarify or guide you through this topic?
+						</p>
+						
+		<div class="buttons flex-direction-row flex-wrap justify-content-center gap-xxs">
+			<div>
+		<button
+			class="button button-sm border inner-focus display-none margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-test-id="ask-learn-assistant-modal-entry-mobile-feedback"
+			data-ask-learn-modal-entry-feedback
+			data-bi-an=feedback-unhelpful-popover
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-label="Ask Learn"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+		</button>
+		<button
+			class="button button-sm display-inline-flex display-none-desktop flex-shrink-0 margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-modal-entry-tablet-feedback"
+			data-ask-learn-modal-entry-feedback
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+		<button
+			class="button button-sm display-none flex-shrink-0 display-inline-flex-desktop margin-right-xxs border-color-ask-learn margin-right-xxs"
+			data-bi-name="ask-learn-assistant-entry-troubleshoot"
+			data-bi-an=feedback-unhelpful-popover
+			data-test-id="ask-learn-assistant-flyout-entry-feedback"
+			data-ask-learn-flyout-entry-show-only
+			data-flyout-button="toggle"
+			type="button"
+			style="min-width: max-content;"
+			aria-expanded="false"
+			aria-controls="ask-learn-flyout"
+			hidden
+		>
+			<span class="icon font-size-lg" aria-hidden="true">
+				<span class="docon docon-chat-sparkle-fill gradient-ask-learn-logo"></span>
+			</span>
+			<span>Ask Learn</span>
+		</button>
+	</div>
+			<button
+				type="button"
+				class="button button-sm margin-right-xxs"
+				data-help-option="suggest-fix"
+				data-bi-name="feedback-suggest"
+				data-bi-an="feedback-unhelpful-popover"
+				data-test-id="suggest-fix"
+			>
+				<span class="icon" aria-hidden="true">
+					<span class="docon docon-feedback"></span>
+				</span>
+				<span> Suggest a fix? </span>
+			</button>
+		</div>
+	
+					</div>
+				</details>
+			</div>
+		</section>
+	
+			</div>
+		</div>
+	
+			  </aside> <section
+					id="layout-body-flyout"
+					class="layout-body-flyout "
+					data-bi-name="flyout"
+			  >
+					 <div
+	class="height-full border-left background-color-body-medium"
+	id="ask-learn-flyout"
+></div>
+			  </section> <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout has-padding has-default-focus border-top  uhf-container"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	 <div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-expanded="false"
+				title="Theme"
+				data-bi-name="theme"
+			>
+				<span class="icon">
+					<span class="docon docon-sun" aria-hidden="true"></span>
+				</span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu">
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="light"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="dark"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="high-contrast"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2025</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>ü1áÏ(â      iDˆiD‰HÜÆ´iFà   š    O^partitionKey=%28https%2Cmicrosoft.com%29,:https://learn.microsoft.com/en-us/cpp/build/reference/file-types-created-for-visual-cpp-projects?view=msvc-170 necko:classified 1 peer-ip-address 184.25.166.139 peer-port 443 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 
+content-type: text/html
+etag: "CFbEtxlu7do/1YPzEn/eEpDXM3k="
+last-modified: Wed, 05 Nov 2025 06:03:33 GMT
+content-security-policy: default-src *;script-src 'self' 'unsafe-inline' 'unsafe-eval' *.microsoft.com js.monitor.azure.com dc.services.visualstudio.com try-ppe.dot.net aznb-ame-prod.azureedge.net client-api.arkoselabs.com markdowneditor-public-e0gpfpcwcbbze3ag.b01.azurefd.net markdowneditor-external-Public-fmgmfefddycxdmfj.b01.azurefd.net h64.online-metrix.net;style-src 'self' 'unsafe-inline' *.microsoft.com aznb-ame-prod.azureedge.net try-ppe.dot.net markdowneditor-public-e0gpfpcwcbbze3ag.b01.azurefd.net markdowneditor-external-Public-fmgmfefddycxdmfj.b01.azurefd.net;img-src * data: blob:;frame-ancestors docs.microsoft.com *.docs.microsoft.com learn.microsoft.com *.learn.microsoft.com labclient.labondemand.com portal.azure.com *.portal.azure.com portal.azure.us portal.azure.cn ai.azure.com *.ai.azure.com learn-video.azurefd.net docs.azure.cn *.onecloud.azure-test.net *.sharepoint.com localhost:3000;worker-src 'self' blob: *.microsoft.com aznb-ame-prod.azureedge.net;form-action 'self' *.microsoft.com *.azure.cn *.pearsonvue.com;media-src 'self' blob: *.microsoft.com *.azure.cn videoencodingpublic-hgeaeyeba8gycee3.b01.azurefd.net videoencodingpubdevwus.blob.core.windows.net videoencodingpublicwus.blob.core.windows.net;base-uri 'self';font-src 'self' https: data:;object-src 'none';script-src-attr 'none';upgrade-insecure-requests
+cross-origin-opener-policy: unsafe-none
+cross-origin-resource-policy: cross-origin
+origin-agent-cluster: ?1
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-dns-prefetch-control: off
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+x-buildversion: 0.4.03239.7319-c76ed203
+x-azure-ref: 20251116T084915Z-17687599c44wmbg8hC1ATL74as0000000kdg0000000064y2
+nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.01,"failure_fraction":1.0}
+report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://mdec.nelreports.net/api/report?cat=mdocs"}]}
+content-length: 53439
+cache-control: public, max-age=600
+expires: Wed, 19 Nov 2025 22:38:25 GMT
+date: Wed, 19 Nov 2025 22:28:25 GMT
+akamai-cache-status: Miss from child, RefreshHit from parent
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+X-Firefox-Spdy: h2
+ original-response-headers content-type: text/html
+etag: "CFbEtxlu7do/1YPzEn/eEpDXM3k="
+last-modified: Wed, 05 Nov 2025 06:03:33 GMT
+content-security-policy: default-src *;script-src 'self' 'unsafe-inline' 'unsafe-eval' *.microsoft.com js.monitor.azure.com dc.services.visualstudio.com try-ppe.dot.net aznb-ame-prod.azureedge.net client-api.arkoselabs.com markdowneditor-public-e0gpfpcwcbbze3ag.b01.azurefd.net markdowneditor-external-Public-fmgmfefddycxdmfj.b01.azurefd.net h64.online-metrix.net;style-src 'self' 'unsafe-inline' *.microsoft.com aznb-ame-prod.azureedge.net try-ppe.dot.net markdowneditor-public-e0gpfpcwcbbze3ag.b01.azurefd.net markdowneditor-external-Public-fmgmfefddycxdmfj.b01.azurefd.net;img-src * data: blob:;frame-ancestors docs.microsoft.com *.docs.microsoft.com learn.microsoft.com *.learn.microsoft.com labclient.labondemand.com portal.azure.com *.portal.azure.com portal.azure.us portal.azure.cn ai.azure.com *.ai.azure.com learn-video.azurefd.net docs.azure.cn *.onecloud.azure-test.net *.sharepoint.com localhost:3000;worker-src 'self' blob: *.microsoft.com aznb-ame-prod.azureedge.net;form-action 'self' *.microsoft.com *.azure.cn *.pearsonvue.com;media-src 'self' blob: *.microsoft.com *.azure.cn videoencodingpublic-hgeaeyeba8gycee3.b01.azurefd.net videoencodingpubdevwus.blob.core.windows.net videoencodingpublicwus.blob.core.windows.net;base-uri 'self';font-src 'self' https: data:;object-src 'none';script-src-attr 'none';upgrade-insecure-requests
+cross-origin-opener-policy: unsafe-none
+cross-origin-resource-policy: cross-origin
+origin-agent-cluster: ?1
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-dns-prefetch-control: off
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+x-buildversion: 0.4.03239.7319-c76ed203
+x-azure-ref: 20251116T084915Z-17687599c44wmbg8hC1ATL74as0000000kdg0000000064y2
+nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.01,"failure_fraction":1.0}
+report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://mdec.nelreports.net/api/report?cat=mdocs"}]}
+content-length: 53439
+cache-control: public, max-age=600
+expires: Wed, 19 Nov 2025 22:38:25 GMT
+date: Wed, 19 Nov 2025 22:28:25 GMT
+akamai-cache-status: Miss from child, RefreshHit from parent
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 1246 net-response-time-onstop 1296   Ð¿
